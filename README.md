@@ -1,9 +1,9 @@
-# 🧠 Capacitismo-automatizado  
+#  Capacitismo-automatizado  
 Capacitismo Linguístico no Português Brasileiro: Uma Análise Computacional da Representação de Pessoas com Deficiência
 
 ---
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 
 Este projeto investiga a detecção automática de expressões capacitistas em língua portuguesa utilizando técnicas de **Processamento de Linguagem Natural (PLN)** e modelos baseados em **Transformers (BERTimbau)**.
 
@@ -13,7 +13,7 @@ O trabalho combina análise linguística e modelagem computacional para identifi
 
 ---
 
-## 🔎 Revisão Sistemática da Literatura
+##  Revisão Sistemática da Literatura
 
 O projeto foi fundamentado a partir da Revisão Sistemática da Literatura:
 
@@ -35,11 +35,11 @@ Faculdade de Computação — Universidade Federal de Mato Grosso do Sul (UFMS)
 - Há carência de recursos linguísticos estruturados em português
 - Necessidade de abordagens que integrem linguística + IA
 
-👉 A partir dessas lacunas, este projeto foi estruturado.
+ A partir dessas lacunas, este projeto foi estruturado.
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Detectar padrões linguísticos associados ao capacitismo em português
 - Distinguir usos ofensivos de usos neutros ou figurativos
@@ -50,26 +50,26 @@ Faculdade de Computação — Universidade Federal de Mato Grosso do Sul (UFMS)
 
 ---
 
-## 🗂️ Corpora Utilizados
+##  Corpora Utilizados
 
-### 📘 TuPy-E
+###  TuPy-E
 - Corpus anotado de discurso de ódio em português
 - Contém categoria explícita de *ableism*
 - Base inicial para extração de padrões
 
-### 🧪 Capta-PTBR
+###  Capta-PTBR
 Corpus criado neste projeto:
 - **Estágio 1:** extração automática via padrões léxico-sintáticos  
 - **Estágio 2:** refinamento com anotação manual  
 
-### 🌐 BiasTube-PTBR
+###  BiasTube-PTBR
 - +531 mil comentários do YouTube
 - Dados reais e não anotados
 - Usado para predição em larga escala
 
 ---
 
-## ⚙️ Metodologia
+##  Metodologia
 
 A metodologia combina abordagens linguísticas e computacionais em um pipeline estruturado:
 
@@ -125,7 +125,7 @@ Saídas:
 ---
 
 
-## 📊 Principais Contribuições
+##  Principais Contribuições
 
 - Construção do **Capta-PTBR**, corpus inédito para capacitismo
 - Formalização de padrões léxico-sintáticos interpretáveis
