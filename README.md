@@ -22,8 +22,9 @@ O projeto foi fundamentado a partir da Revisão Sistemática da Literatura:
 **Autores:**  
 Janaina Nogueira de Souza Lopes  
 Valéria Quadros dos Reis  
-Amaury Antônio de Castro Junior  
 Anderson Corrêa de Lima  
+Amaury Antônio de Castro Junior  
+
 
 **Instituição:**  
 Faculdade de Computação — Universidade Federal de Mato Grosso do Sul (UFMS)
