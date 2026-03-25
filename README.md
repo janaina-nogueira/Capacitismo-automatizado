@@ -123,9 +123,6 @@ Saídas:
 
 ---
 
-## 🧪 Pipeline Geral
-
----
 
 ## 📊 Principais Contribuições
 
@@ -135,54 +132,5 @@ Saídas:
 - Análise em larga escala do capacitismo em português
 - Evidências empíricas sobre linguagem discriminatória em ambientes digitais
 
----
 
-## 📁 Estrutura do Projeto
-
-```bash
-Capacitismo-automatizado/
-│
-├── data/
-│   ├── raw/
-│   │   ├── tupye.csv
-│   │   ├── biastube.csv
-│   │
-│   ├── processed/
-│   │   ├── capta_ptbr_stage1.csv
-│   │   ├── capta_ptbr_stage2.csv
-│   │   ├── dataset_final.csv
-│
-├── notebooks/
-│   ├── 01_extracao_padroes.ipynb
-│   ├── 02_analise_exploratoria.ipynb
-│   ├── 03_dapt.ipynb
-│   ├── 04_finetuning.ipynb
-│   ├── 05_avaliacao.ipynb
-│
-├── src/
-│   ├── patterns/
-│   │   ├── dependency_patterns.py
-│   │   ├── matcher_patterns.py
-│   │
-│   ├── preprocessing/
-│   │   ├── clean_text.py
-│   │   ├── normalize.py
-│   │
-│   ├── training/
-│   │   ├── train_model.py
-│   │   ├── evaluate.py
-│   │
-│   ├── inference/
-│   │   ├── predict.py
-│
-├── models/
-│   ├── bertimbau_dapt/
-│   ├── bertimbau_finetuned/
-│
-├── results/
-│   ├── metrics/
-│   ├── plots/
-│   ├── predictions.csv
-│
-└── README.md
 
